@@ -1,0 +1,73 @@
+/*
+=== Mobile view ===
+*/
+.header {
+    text-align: center;
+}
+.header img {
+    width: 27%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+nav {
+    background-color: black;
+    margin-top: 0.2em;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 0.5em;    
+}
+
+/*
+=== Tab view ===
+*/
+
+@media screen and (min-width: 768px) {
+    .header {
+        text-align: center;
+    }
+    .header img {
+        width: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    nav {
+        background-color: black;
+        margin-top: 1em;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        margin-left: 1em;
+        
+    }
+}
+
+/*
+=== Desktop view ===
+*/
+
+@media screen and (min-width: 1200px) {
+    .header {
+        text-align: center;
+    }
+    .header img {
+        width: 18%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    nav {
+        background-color: black;
+        margin-top: 1em;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        margin-left: 1em;
+        
+    }
+}
