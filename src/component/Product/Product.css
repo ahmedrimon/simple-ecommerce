@@ -1,0 +1,98 @@
+/*
+=== Mobile view ===
+*/
+body {
+    box-sizing: border-box;
+}
+.product {
+    display: flex;
+    font-size:0.8rem;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid lightgray;
+}
+.product-second {
+    margin-left: 1.5em;
+}
+.product-name {
+    color: blue;
+    font-weight: 400;
+}
+.product-image {
+    width: 90%;
+    margin-top: 0.5em;
+}
+.main-button {
+    background: #F8BD47;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.3em;
+}
+
+/*
+=== Tab view ===
+*/
+@media screen and (min-width: 768px) {
+    .product {
+        display: flex;
+        font-size:1rem;
+        padding-bottom: 1.5em;
+        border-bottom: 1px solid lightgray;
+    }
+    .product-second {
+        margin-left: 1.5em;
+    }
+    .product-name {
+        color: blue;
+        font-weight: 400;
+    }
+    .product-image {
+        width: 70%;
+    }
+    .main-button {
+        background: #F8BD47;
+        color: black;
+        font-weight: 600;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 0.5rem;
+    }
+
+}
+
+
+/*
+=== Desktop view ===
+*/
+@media screen and (min-width: 1200px) {
+    .product {
+        display: flex;
+        font-size: 1.2rem;
+        padding-bottom: 1.5em;
+        margin-left: 1em;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .product-second {
+        margin-left: 1.5em;
+    }
+
+    .product-name {
+        color: blue;
+        font-weight: 400;
+    }
+    .product-image {
+        width: 100%;
+    }
+
+    .main-button {
+        background: #F8BD47;
+        color: black;
+        font-weight: 700;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30%;
+        padding: 0.5em;
+    }
+}
